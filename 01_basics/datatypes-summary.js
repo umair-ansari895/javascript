@@ -32,3 +32,26 @@ const myFunction = function(){
 
     console.log("hello world");
 }
+
+// ************************** Memmory *****************************************
+
+// Stack (Primitive), Stack (Non Primitive)
+
+let myYoutubeName = "umairdotcom"
+let anotherName = myYoutubeName
+anotherName = "ansaridotcom"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "umair@gmail.com",
+    upi: "umair@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "ansari@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
